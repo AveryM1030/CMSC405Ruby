@@ -9,7 +9,7 @@
 # 6 factorial = 6 * 5 * 4 * 3 * 2 * 1 = 720
 x = 0
 loop do
-    x = x.*1
+    x = x.*1 
     print x
     break if x.>=6
 end
@@ -23,7 +23,7 @@ end
 
 # 3. Write the code to call the gen_factorial function and output the 
 # return from the function.
-puts gen_factorial 2
+puts gen_factorial 4
 
 # 4. Write a function named gen_factorial that returns a code block. The 
 # code block should compute and return the factorial of a number. 
@@ -31,6 +31,8 @@ puts gen_factorial 2
 # the number for which a factorial is to be computed.
 def gen_factorial
     lambda do |x|
+        x = x.*1
+        print x
 end
 
 # 5. Write the code to call the gen_factorial function and store the 
