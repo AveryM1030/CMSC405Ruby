@@ -108,7 +108,7 @@ def day_of_week
         if today.saturday?
             'Do chores around the house.'
         elsif today.sunday?
-            puts 'Relax'
+             'Relax'
         else
             'Go to school'
         end
